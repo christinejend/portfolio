@@ -3,119 +3,142 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="Description">
-	<link rel="stylesheet" href="styles.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles-aout.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 	<title>Projets</title>
 </head>
 <body class="mainProjets">
-		<div class="logolink">
+		<div class="mainProjet__intro">
+		<span class="logolink">
 			<a href="index.html" title="" class="ariane">Accueil</a>
+		</span>
+		<a href="index.html" title="Retour vers l'accueil">
+			<div class="mainProjet__moi" id="perso">
+				<h1>Christine Jendrzejczyk</h1>
+					<q>Web designer</q>
+			</div>	
+			<img src="img/sigle2.png" alt="" class="mainProjet__logo">
+			
 		</div>
-		<h2 role="heading" aria-level="2" class="pprojets__title">Choississez un projet</h2>
-		<div class="mainProjets__projets">
-			<nav class="pprojets">
-				<ul>
-					<li class="pprojet projet1"><a href="#aff" title="Afficher le projet Cv" class="mainProjet__title">  Le cv</a></li>
-					<li class="pprojet projet2"><a href="#aff1" class="mainProjet__title" title="Afficher le projet" >Baobab</a></li>
-					<li class="pprojet projet3"><a href="#aff2" class="mainProjet__title" title="Afficher le projet" >Artiste</a></li>
-					<li class="pprojet projet4"><a href="#aff3" class="mainProjet__title" title="Afficher le projet" >Css Zen Garden</a></li>
-					<li class="pprojet projet5"><a href="#aff4" class="mainProjet__title" title="Afficher le projet" >Snake</a></li>
-					<li class="pprojet projet6"><a href="#aff5" class="mainProjet__title" title="Afficher le projet" >Pendu</a></li>
+		</a>
+		<div class="mainProjets__projets" id="menuProjets">
+			<nav class="projets__nav">
+				<ul class="projets__list1">
+					<a href="#aff" title="Afficher le projet Cv" class="mainProjet__title"><li class="pprojet projet1">Le cv</li></a>
+					<a href="#aff1" title="Afficher le projet" class="mainProjet__title"><li class="pprojet projet2">Baobab</li></a>
+					
+				</ul>
+				<ul class="projets__list2">
+					<a href="#aff3" title="Afficher le projet" class="mainProjet__title" ><li class="pprojet projet4">Css Zen Garden</li></a>
+					<a href="#aff4" title="Afficher le projet" class="mainProjet__title"><li class="pprojet projet5">Snake</li></a>	
+				</ul>
+				<ul class="projets__list3">
+					<a href="#aff2" title="Afficher le projet" class="mainProjet__title" ><li class="pprojet projet3">Artiste</li></a>
+					<a href="#aff5" title="Afficher le projet" class="mainProjet__title"><li class="pprojet projet6">Biblio</li></a>
 				</ul>
 			</nav>
 		</div>
-		<div class="mainProjet" id="aff">
-				<h2 role="heading" aria-level="1" class="mainProjet__title2">Curriculum vitae</h2>
+		
+		<div class="mainProjet" id="aff">	
+				<a href="#" class="closeProjets">fermer</a>
+				<h2 role="heading" aria-level="1" class="mainProjet__title2">Curriculum Vitae</h2>
 				<p class="mainProjet__description">
-					Le but de ce site était de faire un copier-coller d'un site connu mais en le transormant en cv.
+					Le but de ce site était de faire un copier-coller d'un site connu mais en le transformant en cv.
 					Je me suis inspirée de site de Youtube, très connu de tous.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, corporis animi. Animi eligendi excepturi sunt soluta praesentium repellendus iste et ad natus. Fuga dolorum debitis consequuntur vero velit, neque laboriosam. 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, officia facilis saepe dolor vitae neque provident minus a quibusdam reprehenderit animi eveniet eos illo ex. Itaque natus, optio officiis possimus.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut incidunt culpa rerum necessitatibus aliquam animi labore, veritatis illo temporibus est! Eius harum, error, sunt natus a repellat reiciendis eos laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum voluptatum, officia nisi provident sequi rem itaque omnis, dolorem magni, magnam totam enim, fugiat veniam minima possimus fuga aperiam porro tempora.
 				</p>
 				<p class="mainProjet__cours">
 					Pour le cours de design web
 				</p>
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  alt="Apercu du projet"  class="mainProjet__img" class="mainProjet__img">
+				<img src="img/cv.PNG" alt="Apercu du projet"  alt="Apercu du projet"  class="mainProjet__img" class="mainProjet__img">
 				<a href="http://hepl01.cblue.be/~user20/dw/cv/" title="lien vers le projet cv" class="mainProjet__link">
 					Aller le voir
 				</a>
-			</div>
-			<div class="mainProjet projet__deux" id="aff1"> 
-
+		</div>
+		<div class="mainProjet projet__deux" id="aff1"> 
+				<a href="#" class="closeProjets">fermer</a>
 				<h2 role="heading" aria-level="1" class="mainProjet__title2">Baobab</h2>
 				<p class="mainProjet__description">
-					Baobab est notre premier site pour de véritable client. Le groupe baobab (composé de Elena Cabedo Garcia et de François Chenot) voyage en proposant un atelier itinérant de cinéma d’animation qui s’inscrit dans le soutien d’une cause sociale.
-					Nous avons un cahier des charges à suivre, le site plaisant le plus à l'organisation sera prit comme leur site officiel.
+					Baobab est notre premier site pour un véritable client. Le groupe baobab (composé de Elena Cabedo Garcia et de François Chenot) voyage en proposant un atelier itinérant de cinéma d’animation qui s’inscrit dans le soutien d’une cause sociale.
+					Nous avons un cahier des charges à suivre, le site le plus à l'organisation sera pris comme leur site officiel.
 
 				</p>
 				<p class="mainProjet__cours">
 					Pour le cours de design web
 				</p>
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  class="mainProjet__img">
+				<img src="img/baobab.PNG" alt="Apercu du projet"  class="mainProjet__img">
 				<a href="" title="" class="mainProjet__link hidden">
 					Aller le voir
 				</a>
 			</div>
 			<div class="mainProjet projet__trois" id="aff2">
+				<a href="#" class="closeProjets">fermer</a>
 				<h2 role="heading" aria-level="1" class="mainProjet__title2">Artiste</h2>
 				<p class="mainProjet__description">
-					Pour celui-ci, nous devions faire un site sur un artiste avec une page pour un événement fictif. Nous avions des rubriques obligatoires ( biographie, galerie, pratique, liens, discographie - bibliographie). Un lien email doit permettre de contacter le webmaster du site, un formulaire de contact ( sans côté serveur) pour permettre d'avoir des infos sur les évenements.
+					Pour celui-ci, nous devions faire un site sur un artiste avec une page pour un événement fictif. Nous avions des rubriques obligatoires (biographie, galerie, pratique, liens, discographie #- bibliographie). Un lien email doit permettre de contacter le webmaster du site, un formulaire de contact (sans côté serveur) pour permettre d'avoir des infos sur les évenements.
 
 				</p>
 				<p class="mainProjet__cours">
 					Pour le cours de design web
 				</p>
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  class="mainProjet__img">
+				<img src="img/artiste.PNG" alt="Apercu du projet"  class="mainProjet__img">
 				<a href="" title="" class="mainProjet__link hidden">
 					Aller le voir
 				</a>
 			</div>
 			<div class="mainProjet projet__quatre" id="aff3">
+				<a href="#" class="closeProjets">fermer</a>
 				<h2 role="heading" aria-level="1" class="mainProjet__title2">Css Zen garden</h2>
 				<p class="mainProjet__description">
-				Ce projet était à la base externe au cours, Css zen garden fournit un html complet auquel on ne peut apporter aucune modification. Le but étant en changeant juste de feuille de style, le contenu serait toujours le même. C'est typiquement de l'habillage de site.
+				Ce projet était à la base externe au cours, Css zen garden fournit un html complet auquel on ne peut apporter aucune modification. Le but étant en changeant juste de feuille de style, le contenu serait toujours le même. C'est typiquement de l'habillage de site et le style est totalement libre.
 
 				</p>
 				<p class="mainProjet__cours">
 					Pour le cours de design web
 				</p>
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  class="mainProjet__img">
+				<img src="img/zen.PNG" alt="Apercu du projet"  class="mainProjet__img">
 				<a href="" title="" class="mainProjet__link hidden">
 					Aller le voir
 				</a>
 			</div>
 			<div class="mainProjet projet__cinq" id="aff4">
+				<a href="#" class="closeProjets">fermer</a>
 				<h2 role="heading" aria-level="1" class="mainProjet__title2">Snake</h2>
 				<p class="mainProjet__description">
-					Le snake est un jeu mythique, il est codé avec canvas et javascript. Petite nuance ajouté au jeu, il y a des murs positionnés aléatoirement, le serpent doit évidemment les éviter !
+					Le snake est un jeu mythique, il est codé avec Canvas et Javascript. Petite nuance ajouté au jeu, il y a des murs positionnés aléatoirement, le serpent doit évidemment les éviter !
 
 				</p>
 				<p class="mainProjet__cours">
 					Pour le cours de multimédia
 				</p>
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  class="mainProjet__img">
+				<img src="http://dummyimage.com/800x250/000000/00f7ff.PNG&text=Aperçu+site" alt="Apercu du projet"  class=" hidden mainProjet__img">
 				<a href="" title="" class="mainProjet__link hidden">
 					Aller le voir
 				</a>
 			</div>
 			<div class="mainProjet projet__six" id="aff5">
-				<h2 role="heading" aria-level="1" class="mainProjet__title2">Le pendu</h2>
+				<a href="#" class="closeProjets">fermer</a>
+				<h2 role="heading" aria-level="1" class="mainProjet__title2">Bibliothèque</h2>
 				<p class="mainProjet__description">
-					Le but ici à été de coder un pendu en php.
+				Sorte de site de bibliothèque, tout le contenu du site vient d'un base de donnée, on le recupère et manipule comme on veut ( dans les limites du possible) grâce à Php.
 
 				</p>
 				<p class="mainProjet__cours">
-					Pour le cours de php
+					Pour le cours de dévelopement côté serveur
 				</p>
-				
-				<img src="http://dummyimage.com/800x250/000000/00f7ff.png&text=Aperçu+site" alt="Apercu du projet"  class="mainProjet__img">
+				<img src="img/biblio.PNG" alt="Apercu du projet"  class=" mainProjet__img">
 				<a href="" title="" class="mainProjet__link hidden">
 					Aller le voir
 				</a>
 			</div>
+		<a href="propos.html" alt="Lien vers la page projets" class="proposlink linkpages">En savoir plus sur Christine Jend.</a>
+		</div>
 		
-		</div>
 
-		<div class="projetlinkpropos bloclink">
-			<a href="propos.html" alt="Lien vers la page projets" class="propos__link linkpages">En savoir plus sur Christine Jend.</a>
-		</div>
-	<!--	<script src="afficher.js"></script>-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="afficher.js"></script>
 </body>
 </html>

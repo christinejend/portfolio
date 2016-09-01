@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role #F9C043 reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -53,40 +53,62 @@ p{
 }
 @font-face {
   font-family: 'Glyphs';
-  src: url("../../font/fonts/fontawesome-webfont.eot");
-  src: url("../../font/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
-  	   url("../../font/fonts/fontawesome-webfont.woff2") format("woff2"),
-       url("../../font/fonts/fontawesome-webfont.woff") format("woff"), 
-       url("../../font/fonts/fontafontawesome-webfont.ttf") format("truetype"),
-       url("../../font/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  src: url("font/fonts/fontawesome-webfont.eot");
+  src: url("font/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
+  	   url("font/fonts/fontawesome-webfont.woff2") format("woff2"),
+       url("font/fonts/fontawesome-webfont.woff") format("woff"), 
+       url("font/fonts/fontafontawesome-webfont.ttf") format("truetype"),
+       url("font/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+   }
 
 
 .main{
-	background: url('img/ni3.jpg') no-repeat center fixed;
+	background: url('img/62.jpg') no-repeat center fixed;
 	/*background-image:linear-gradient(dimgrey, black);*/
 	background-size: 100% 100%;
-	background-color: black;
 	font-family: "Dosis", sans-serif;
 }
- .mainPropos{
- 	
- 	/*background: url('img/fond.jpeg') no-repeat center fixed;*/
- 	/*background-image:linear-gradient(dimgrey, black);
-	background-size:  95rem 46.5rem;
-	background-position: 0rem 0rem;/*
-	height: 47rem;	*/
-	font-family: "Dosis", sans-serif;
-	/* DEBUT FON DEGRADE */
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b4ac9+14,5ddcfc+100,f4f9f7+100 */
+
+.mainProjets{
+	/* MAUVE BLEU 
 	background: #7b4ac9; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #7b4ac9 14%, #5ddcfc 100%, #f4f9f7 100%) no-repeat center fixed ; /* FF3.6-15 */
+	background: -moz-linear-gradient(-45deg,  #7b4ac9 14%, #5ddcfc 100%, #f4f9f7 100%) no-repeat center fixed; /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b4ac9', endColorstr='#f4f9f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	background-size: 100% 118%;
+	font-family: "Dosis", sans-serif; 
+
+}
+ .mainPropos{
+ 	color: white;
+
+	font-family: "Dosis", sans-serif;
+	/* DEBUT FOND DEGRADE */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7b4ac9+14,5ddcfc+100,f4f9f7+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8c3310+2,57d6d1+100&0.84+0,1+100 */
+background: -moz-linear-gradient(-45deg,  #7b4ac9 14%, #5ddcfc 100%, #f4f9f7 100%) no-repeat center fixed; /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b4ac9', endColorstr='#f4f9f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-family: "Dosis", sans-serif; 
+
 	/*FIN FONDS*/
+
+
+	/* BRUN     Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7361f+0,4bb4c6+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e55842+1,4ebdce+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e0415+0,7a160b+0,7a160b+29,b23b23+56,bf6441+73,f78f5b+87,f2a074+100&0.83+0,1+1,1+99 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f1f0f+0,7a160b+0,b23b23+49,bf6441+86,f2a074+100&0.91+0,0.88+48,0.86+99 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f1f0f+0,7a160b+0,b23b23+49,bf6441+86&0.7+0,0.7+48,1+99 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f1f0f+0,7a160b+0,b23b23+49,bf6441+86&0.88+0,0.7+48,1+99 */
+/*background: -moz-linear-gradient(-45deg,  rgba(122,22,11,0.88) 0%, rgba(177,58,35,0.7) 48%, rgba(178,59,35,0.71) 49%, rgba(191,100,65,0.92) 86%, rgba(191,100,65,1) 99%) no-repeat center fixed; /* FF3.6-15 */
+/*background: -webkit-linear-gradient(-45deg,  rgba(122,22,11,0.88) 0%,rgba(177,58,35,0.7) 48%,rgba(178,59,35,0.71) 49%,rgba(191,100,65,0.92) 86%,rgba(191,100,65,1) 99%) no-repeat center fixed; /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(135deg,  rgba(122,22,11,0.88) 0%,rgba(177,58,35,0.7) 48%,rgba(178,59,35,0.71) 49%,rgba(191,100,65,0.92) 86%,rgba(191,100,65,1) 99%) no-repeat center fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e07a160b', endColorstr='#bf6441',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bf9d87+1,28928e+98,28928e+98 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0b3f45+0,0ddae5+100 */
 
 	
  }
@@ -150,29 +172,35 @@ p{
   -o-animation:      warn 3s ease; /* Opera 12+ */
   animation:         warn 3s ease; /* IE 10+, Fx 29+ */
 	
-	
-}
-.perso::hover, .projets::hover{
-	
 }
 .perso a, .projets a{
 	color: #002E4E;
+
+}
+.propos:hover{
+	border: 5px inset gray;
+	padding: 0.7rem;
+
+}
+.projets__heading:hover{
+	border: 5px inset gray;
+	padding: 1.05rem;
 }
  
-.main__img:hover{
+.main__img::hover{
   animation: rotat 4s  ease;
 	-webkit-animation: rotat 4s  ease;
 	-moz-animation: rotat 4s  ease;
 }
 .propos{
 	position: relative;
-	top: 22rem;
-	animation: 900ms ease-out 0s normal forwards 1 running fromleft;
-	left: 1%;
+	top: 25rem;
+	left: 5%;
+	animation: 1200ms ease 0s normal forwards 1 running fromleft;
 	width: 21%;
-	/*min-width: 17%;*/
+	min-width: 17%;
 	padding: 1rem;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	background-color: #00CDFF ;
 }
 .propos__text{
@@ -181,7 +209,7 @@ p{
 	text-align: center;
 }
 .propos__heading{
-	color: #002E5D;
+	color:  #002E5D;
 	padding: 0.5em;
 	text-decoration: underline;
 	text-align: center;
@@ -205,19 +233,18 @@ p{
 
 .projets__heading{
 	background-color: #00CDFF;
-	padding: 1rem;
+	padding: 1.4rem;
 	text-decoration: underline;
 }
 .infos__heading{
 	padding: 2em;
-	color: #73E0FB;
-	font-size: 1.8em;
+	color: #4fffff;
+	font-size: 2em;
 	width: 90%;
 }
 .infos{
 	width: 28%;
-	min-width: 36%;
-	margin-right: 19.5%;
+	margin-right: 24%;
 	float: right;
 	margin-top: -30%;
 	animation: 900ms ease-out 0s normal forwards 1 running fromleft;
@@ -246,10 +273,9 @@ p{
 }
 .contact__elt{
 	padding: 0.3em 0;
-	width: 173%;
 }
 .bloclink	{
-	width: 13e%;
+	width: 13%;
 	padding: 1em;
 	float: right;
 	background-color: #F9C043;	
@@ -258,16 +284,16 @@ p{
 	border-radius: 32px;
 	text-align: center;
 	margin-right: 6%;
-	animation: 900ms ease-out 0s normal forwards 1 running fromright;
+	animation: 900ms ease 0s normal forwards 1 running fromright;
 }
 
 .projets{
-	font-size: 1.2em;
+	font-size: 1.3em;
 	width: 11%;
 	position: absolute;
-	right: 0%;
-	top: 10em;
-	animation: 900ms ease-out 0s normal forwards 1 running fromright;
+	right: 0;
+	top: 8em;;
+	animation: 1200ms ease 0s normal forwards 1 running fromright;
 }
 @keyframes fromright {
 0% {
@@ -301,6 +327,7 @@ p{
 .mainPropos__link:before {
   font-size: 1.5em;
   content: "  ";
+  font-family: 'Glyphs';
   margin-left: 2%;
 
   color: gray;
@@ -343,23 +370,13 @@ p{
 
 }
 
-.mainProjets{
-	background: #7b4ac9; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #7b4ac9 14%, #5ddcfc 100%, #f4f9f7 100%) no-repeat center fixed; /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg,  #7b4ac9 14%,#5ddcfc 100%,#f4f9f7 100%) no-repeat center fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b4ac9', endColorstr='#f4f9f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	background-size: 100% 118%;
-	font-family: "Dosis", sans-serif; 
-}
 .mainProjets a{
 	text-decoration: none;
 }
 
 .pprojets{
 	width: 10%;
-	background-color: rgba(12, 209, 242, 0.7);
-	box-shadow: 1px 1px 4px rgba(12, 209, 242, 0.9);
+	background-color: rgba(12, 209, 242, 1);
 	margin-left: 3%;
 	margin-top: 1em;
 	opacity: 0.9;
@@ -367,9 +384,15 @@ p{
 .pprojets a{
 	color: black;
 }
+.pprojet:hover:before{
+	content: "| ";
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+}
 .pprojet{
 	text-align: center;
-	padding: 1em;
+	padding: 2em;
 }
 .mainProjet__title{
 	cursor: pointer;
@@ -383,15 +406,6 @@ p{
 		margin-left: 3.2%;
 		margin-top: 6em;
 }
-.projet1:checked ~ {
-	
-}/*
-	&__boutton:checked ~ ul{
-  	transform: translateY(-300%) translateZ(0);
-  	margin-left: -5em;
-  		.nav__dropdown:checked{
-  			right: -3em;
-		}*/
 .mainProjet{
 	width: 49%;
 	/*background-color: rgba(12, 209, 242, 0.7);*/
@@ -402,7 +416,7 @@ p{
 	color: #fff;
 }
 
-/* TEST EMPLACEMENT JS */
+/* REMPLACEMENT JS */
 
 
 #aff:target{
@@ -426,10 +440,10 @@ p{
 	margin-right: -8%;
 }
 #nom{
-	margin-right: 13%;
+	margin-right: 7%;
 }
 #prenom{
-	margin-right: 6%;
+	margin-right: 2%;
 }
 #email{
 	margin-right: 12%;
@@ -473,11 +487,13 @@ input{
 	margin-left: 1.5%; 
 }
 .mainProjet__link{
-	margin-left: 20%;
+	margin-left: 30%;
 	margin-bottom: 2em;
 	padding: 1em;
+	color: white;
 
 }
+
 .mainProjet__img{
 	margin-left: -4em;
 	margin-top: 3em;
@@ -487,7 +503,7 @@ input{
 
 .projetlinkpropos{
 	width: 16%;
-	margin-top: 6em;
+	margin-top: -3em;
 	margin-right: 2%;
 	
 }
@@ -500,41 +516,45 @@ input{
 /* ICONS */
 
  .gsm::before {
- 	color: white;
+ 	color: #7CCEF7;
     content: " ";
     font-size: 2em;
+     font-family: 'Glyphs';
     padding-right: 3%;
 }
 
  .facebook::before {
- 	color: white;
+ 	color:#7CCEF7;
     content: " ";
     font-size: 2em;
+     font-family: 'Glyphs';
     padding-right: 3%;
 }
 
 
  .git::before {
- 	color: white;
+ 	color:#7CCEF7;
     content: "";
     font-size: 2em;
+     font-family: 'Glyphs';
     padding-right: 3%;
 }
 
 
  .gmail::before {
- 	color: white;
+ 	color: #7CCEF7;
     content: " ";
     font-size: 2em;
+     font-family: 'Glyphs';
     padding-right: 3%;
 }
 .git:hover::before, .facebook:hover::before{
-	color: #F9C043;
+	color: white;
 }
 
 .contact__text a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 /* TEST EMPLACEMENT JS */
 
@@ -605,11 +625,10 @@ input{
 
 }*/
 
-@media screen  and (max-width: 830px){
-		p{
-			color: green;
+@media screen and (max-width: 830px){
+		.mainProjets{
+			background-size: 200% 100%;
 		}
-		
 		.perso{
 			top: 14rem;
 			left: 18.2%;
@@ -634,9 +653,9 @@ input{
 
 		}  /* PAGE PROPOS */
 		.photo__img{
-		width: 40%;
+		width: 45%;
 		margin-top: -1em;
-		margin-left:13%
+		margin-left: 9%
 		}
 		.photo{
 			width:140%;
@@ -666,7 +685,7 @@ input{
 		}
 		.bloclink{
 		padding: 0.7em;
-		margin-right: 37%;
+		margin-right: 31%;
 		margin-top: -27em;
 		}
 		#nom{
@@ -679,7 +698,7 @@ input{
 			display: inline-block;
 		}
 		.infos__heading{
-			padding: 1.3em;
+			padding: 1.3em 0 1.3em 0;
 		}
 		/* PAGE PROJETS */
 		.pprojets{
@@ -718,14 +737,15 @@ input{
 			margin-left: -8em;
 			width: 162%;
 		}
-@media  screen and (max-width: 550px){
-	p{
-			color: blue;
-		}
+
+@media  screen and (max-width: 500px){
 
 	.main__img{
 		left: 22%;
 		width: 57%;
+	}
+	.main{
+		background-size: 190% 100%;
 	}
 	.perso{
 		left: 19.2%;
@@ -740,11 +760,9 @@ input{
 		-o-animation: none;
 		animation: none;
 		background-color: rgba(128, 128, 128, 0.8);
-		padding-top: 2em;
-		padding-bottom: 2em;
+		left: -1em;
 		top: 20em;
 		width: 100%;
-		font-size: 1.5rem;
 	}
 	.propos__text{
 		line-height: 1.6em;
@@ -756,8 +774,8 @@ input{
 		position: unset;
 		margin-top: 18%;
 		width: 100%;
+		margin-left:0em;
 		height: 20em;
-				font-size: 1.5rem;
 	}
 	.projets__heading{
 		background-color: rgba(128, 128, 128, 0.8);
@@ -772,19 +790,19 @@ input{
 		margin-right: 34%;
 	}
 	.form{
-		margin-left: 27%;
+		margin-left: 17%;
 	}
 	.bloclink{
-		margin-left: 24%;
+		margin-left: 31%;
 
-		margin-top: -37em;
+		margin-top: -40em;
 
 	}
 		.projetlinkpropos{
 			margin-top: -17em;
 			margin-right: 5%;
 			width: 30%;
-			color: black;
+			color: white;
 		}
 	/* PROJETS */
 	.mainProjet__img{
@@ -792,13 +810,21 @@ input{
 	}
 
 
-.propos__text{
-	color:  white;
-}
-.propos__heading{
-	color: white;
-	
-}
+	.propos__text{
+		color:  white;
+	}
+	.propos__heading{
+		color: white;
+
+	}
+	.contact__text{
+		margin-bottom: 1.5em;
+	}
 
 }
+
+
+
+
+
 

@@ -3,32 +3,42 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="Description">
-	<link rel="stylesheet" href="styles.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles-aout.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 	<title>À propos de Christine</title>
 </head>
 <body class="mainPropos">
-	<div>
-		<div class="logolink">
+	<span class="logolink">
 			<a href="index.html" title="" class="ariane">Accueil</a>
-		</div>
-		<div class="photo">
+	</span>
+	
+	<h1 role="heading" aria-level="2" class="infos__heading">Christine Jendrzejczyk</h1>
+	<span class="photo">
 			<img src="img/Me.png" alt="" title="" class="photo__img">
-		</div>
-		<div class="infos bloc">
-			<h1 role="heading" aria-level="1" class="infos__heading hidden">infos</h1>
-				<h2 role="heading" aria-level="2" class="infos__heading">Christine Jendrzejczyk</h2>
-				<p class="infos__supp bloc__text"> 22 ans, étudiante en Infographie à l'Inpres de Seraing. Motivée et dynamique, moi et mes compétences seront un grand atout dans votre équipe ! 
-				
-				</p><br>
-				<p class="description__text bloc__text" >Mes études m'ont permise d'ouvrir mon sens de la curiosité, développer (encore plus) mon imagination.
-			</p>
-		</div>
-		<div class="form">
+	</span>
+	<div class="infos bloc">
+		<h1 role="heading" class="hidden" aria-level="1">Bonjour</h1>
+		
+		<p class="infos__supp bloc__text"> Dynamique et créative, moi et mes compétences seront un grand atout dans votre équipe ! 
+		<br> À part ça, j'ai 22 ans et actuellement en 2ème année Infographie à l'Inpres. Mes études m'ont permise d'ouvrir mon sens de la curiosité, développer (encore plus) mon imagination et bien sûr mes compétences.
+		</p>
+		<span class="infos__email">
+		<a href="#joindre" title="" class="emailLink">Envie de me contacter?</a>
+		</span>
+		<p class="infos__suppBas bloc__text">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolore temporibus fuga provident excepturi aliquam delectus eaque! Nihil, labore tempore possimus commodi sequi id illum beatae nemo, qui veniam neque.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusamus, ullam aut autem iusto corrupti, iste magni esse ex veniam reprehenderit, qui, et architecto molestias. Magnam, laborum numquam odio nisi.</span>
+		</p>	
+	</div>
+
+	<div class="form" id="joindre">
 		<h2 class="hidden" aria-level="2" class="" role="heading"> Formulaire</h2>
-			<form method="post" action="/ma-page-de-traitement">
+		<a href="#" class="closeMail">fermer</a>
+			<form method="post" action="">
 				<fieldset class="field">
 					<label id="nom" for="nom">Nom  </label>
-					<input id="nom" type="text" required="" placeholder="Tartempion" name="user_name">
+					<input id="nom" type="text" required placeholder="Tartempion" name="user_name">
 									</fieldset>
 				<fieldset class="field">
 					<label id="prenom" for="prenom">Prénom</label>
@@ -40,29 +50,42 @@
 					<input id="courriel" type="email" required placeholder="123@tagada.be" name="user_email">
 				</fieldset>
 				<fieldset class="field">
-					<label for="message">Message </label>
-					<textarea id="message" required name="user_message"></textarea>
+					<label for="message" id="msg">Message </label>
+					<textarea id="message" required  cols="32" rows="12" name="user_message"></textarea>
 				</fieldset>
 					<div class="button">
 					<button type="submit">Envoyer</button>
-				</div>
 			</form>
 		</div>
-		<div class="contact bloc">
-		<h1 role="heading" aria-level="1" class="contact__heading hidden">Description</h1>
+	</div>
+
+	<div class="contact bloc">
+			<h1 role="heading" aria-level="1" class="contact__heading hidden">Description</h1>
 			<ul class="contact__text bloc__text">
 					
 					<a href="https://www.facebook.com/christ.jendrz" title="lien vers facebook"><li class="contact__elt contact__elt-left facebook">Chris Jend</li></a>
-					<a href="https://gist.github.com/christinejend" title="lien vers github"><li class="contact__elt  contact__elt-right git">christine.jendrz</li></a>
+					<a href="https://github.com/christinejend" title="lien vers github"><li class="contact__elt  contact__elt-right git">christine.jend</li></a>
 					<li class="contact__elt contact__elt-left gsm" >+32 (0)494 408 907</li>
 					<li class="contact__elt contact__elt-right gmail">christine.jendrzejczyk@gmail.com</li>
 			</ul>
-			</p>
+	</div>
+	<div class="infos__list">
+			<ul class="infos__list1">
+					<li class="infos__elt ps">Ps</li>
+					<li class="infos__elt ai">Ai</li>
+					<li class="infos__elt id">Id</li>
+					<li class="infos__elt autocad">Autocad</li>
+			</ul>
+			<ul class="infos__list2">
+					<li class="infos__elt html">Html</li>
+					<li class="infos__elt css">Css</li>
+					<li class="infos__elt js">Js</li>
+					<li class="infos__elt php">Php</li>
+			</ul>
+	</div>		
+	<div class="projetsIndex bloc bloclink">
+			<a href="projets.html" alt="Lien vers la page projets" class="projets__link linkpages">Aller voir les projets</a>
 		</div>
-		<div class="projetsIndex bloc bloclink">
-			<a href="projets.html" alt="Lien vers la page projets" class="projets__link linkpages">Voir les beaux projets</a>
-		</div>
-
 	</div>
 </body>
 </html>
